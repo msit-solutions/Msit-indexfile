@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* 
+    theme color: #ffaf00
+    font color: #4d4d4d
+    bg-light: #f7f7f7
+ */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #4d4d4d;
+}
+#meu-header{
+    -webkit-box-shadow: 0 3px 2px -2px rgb(0 0 0 / 10%);
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    background: #ffaf00;
+    color: #ffffff;
+    border-radius: 30px;
+    padding: 8px 15px;
+}
+.btn-get-intouch {
+    background: #ffaf00 !important;
+    color: #ffffff !important;
+    border-radius: 25px;
+    border-color: #ffaf00;
+    width: 200px;
+}
+.btn-get-intouch:hover {
+    color: #ffaf00 !important;
+    background: #ffffff !important;
+    border-color: #ffaf00;
+}
+.navbar-light .navbar-nav .nav-link {
+    border-radius: 15px;
+}
+.bg-grey {
+    background-color: #f7f7f7;
+}
+#rowHeroHeader {
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.why-msit-logo-item-box {
+    height:120px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+#whyMSIT {
+    background-color: #f7f7f7;
+    
+}
+.section-sep {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+#solutions .sol-card {
+    padding: 40px 15px;
+    text-align: center;
+    box-shadow: 0px 0px 3px 1px #d5d5d5;
+    border-radius: 1rem;
+    min-height: 325px;
+    margin: 5px;
+}
+#solutions .sol-card .sol-card-header-img {
+    margin-bottom: 10px;
+    margin-left:auto;
+    margin-right: auto;
+    max-height: 40px;
+}
+.sol-card-header{
+    height: 50px;
+    display: flex;
+    align-items: flex-end;
+}
+.img-flex-container {
+    height: 100px;
+    display: flex;
+}
+.img-flex-container img {
+    margin: 0 auto;
+}
+#contactUs {
+    background-image: url(../img/contact-us-bg-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white !important;
+}
+
+footer .footer-icon-social {
+    max-width: 50px;
+}
